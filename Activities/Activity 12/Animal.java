@@ -10,11 +10,10 @@ package com.joysistvi.polymorphismactivity.day27;
  * @author Admin
  */
 public class Animal {
-    public void animalDiet(String diet) {
-        System.out.println("I eat " + diet);
-    }
+
+    public void animalDiet(String diet) {}
 
     public void temperature() {
-        System.out.println("I have a general body temperature.");
+        System.out.println("...");
     }
 }
