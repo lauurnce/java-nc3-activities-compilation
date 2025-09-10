@@ -10,13 +10,14 @@ package com.joysistvi.polymorphismactivity.day27;
  * @author Admin
  */
 public class Fish extends Animal{
+    
     @Override
     public void animalDiet(String diet) {
-        System.out.println("Fish diet: " + diet);
+        System.out.printf("%-12s | %s%n", "Fish", diet);
     }
 
     @Override
     public void temperature() {
-        System.out.println("I am cold-blooded!");
+         System.out.printf("%-12s | %s%n", "Fish", "I am cold-blooded!");
     }
 }
