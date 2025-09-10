@@ -10,13 +10,14 @@ package com.joysistvi.polymorphismactivity.day27;
  * @author Admin
  */
 public class Amphibian extends Animal {
+    
     @Override
     public void animalDiet(String diet) {
-        System.out.println("Amphibian diet: " + diet);
+        System.out.printf("%-12s | %s%n", "Amphibian", diet);
     }
 
     @Override
     public void temperature() {
-        System.out.println("I am cold-blooded!");
+         System.out.printf("%-12s | %s%n", "Amphibian", "I am cold-blooded!");
     }
 }
