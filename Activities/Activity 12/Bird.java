@@ -12,11 +12,11 @@ package com.joysistvi.polymorphismactivity.day27;
 public class Bird extends Animal {
     @Override
     public void animalDiet(String diet) {
-        System.out.println("Bird diet: " + diet);
+       System.out.printf("%-12s | %s%n", "Bird", diet);
     }
 
     @Override
     public void temperature() {
-        System.out.println("I am warm-blooded!");
+        System.out.printf("%-12s | %s%n", "Bird", "I am warm-blooded!");
     }
 }
