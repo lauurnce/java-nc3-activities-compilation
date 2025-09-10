@@ -10,9 +10,10 @@ package com.joysistvi.polymorphismactivity.day27;
  * @author Admin
  */
 public class Mammal extends Animal {
-     @Override
+    
+    @Override
     public void animalDiet(String diet) {
-        System.out.println("Mammal diet: " + diet);
+        System.out.printf("%-12s | %s%n", "Mammal", diet);
     }
 
     public static boolean isHumanClass(boolean x) {
