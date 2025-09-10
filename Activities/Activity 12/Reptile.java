@@ -10,8 +10,9 @@ package com.joysistvi.polymorphismactivity.day27;
  * @author Admin
  */
 public class Reptile extends Animal {
+    
     @Override
     public void animalDiet(String diet) {
-        System.out.println("Reptile diet: " + diet);
+        System.out.printf("%-12s | %s%n", "Reptile", diet);
     }
 }
